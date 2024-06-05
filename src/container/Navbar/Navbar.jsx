@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <>
         {/* Desktop and tablet */}
-        <div className = "absolute z-50 hidden md:flex grid-row-3 justify-between items-center w-full py-4 px-[3.5rem] ">
+        <div className = "absolute z-50 hidden md:flex grid-row-3 justify-between items-center w-full py-4 px-[3.5rem]">
             <Link to ='/' className = "flex items-center">
                 <img src = {logo} alt = "logo" className='w-30 object-contain'/>
             </Link>

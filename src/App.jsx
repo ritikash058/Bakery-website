@@ -6,7 +6,7 @@ import {Outlet} from 'react-router-dom';
 const App = () => {
   return (
     <AnimatePresence mode='wait'>
-      <div className = "w-screen h-auto flex flex-col bg-primary">
+      <div className = "w-full h-auto flex flex-col bg-primary overflow-x-hidden">
         <Navbar/>
         <Outlet/>
       </div>
